@@ -1,0 +1,119 @@
+/*
+ * ADC.h
+ *
+ *  Created on: May 24, 2019
+ *      Author: medos
+ */
+
+#ifndef ADC_H_
+#define ADC_H_
+
+
+#define ADC_AREF ENABLE
+#define ADC_AVCC DISABLE
+#define ADC_INTERN DISABLE
+
+#define PRESCALING 128
+
+#define ADC_ADJUST RIGHT   // or LEFT
+
+#define INTEREPT DISABLE   // polling used if DISABLE
+
+#define ADC0 ENABLE
+#define ADC1 DISABLE
+#define ADC2 DISABLE
+#define ADC3 DISABLE
+#define ADC4 DISABLE
+#define ADC5 DISABLE
+#define ADC6 DISABLE
+#define ADC7 DISABLE
+
+#define DADC00 DISABLE
+#define DADC01 DISABLE
+#define DADC02 DISABLE
+#define DADC03 DISABLE
+#define DADC04 DISABLE
+#define DADC05 DISABLE
+#define DADC06 DISABLE
+#define DADC07 DISABLE
+
+#define DADC10 DISABLE
+#define DADC11 DISABLE
+#define DADC12 DISABLE
+#define DADC13 DISABLE
+#define DADC14 DISABLE
+#define DADC15 DISABLE
+#define DADC16 DISABLE
+#define DADC17 DISABLE
+
+#define DADC20 DISABLE
+#define DADC21 DISABLE
+#define DADC22 DISABLE
+#define DADC23 DISABLE
+#define DADC24 DISABLE
+#define DADC25 DISABLE
+#define DADC26 DISABLE
+#define DADC27 DISABLE
+
+#define DADC30 DISABLE
+#define DADC31 DISABLE
+#define DADC32 DISABLE
+#define DADC33 DISABLE
+#define DADC34 DISABLE
+#define DADC35 DISABLE
+#define DADC36 DISABLE
+#define DADC37 DISABLE
+
+#define DADC40 DISABLE
+#define DADC41 DISABLE
+#define DADC42 DISABLE
+#define DADC43 DISABLE
+#define DADC44 DISABLE
+#define DADC45 DISABLE
+#define DADC46 DISABLE
+#define DADC47 DISABLE
+
+#define DADC50 DISABLE
+#define DADC51 DISABLE
+#define DADC52 DISABLE
+#define DADC53 DISABLE
+#define DADC54 DISABLE
+#define DADC55 DISABLE
+#define DADC56 DISABLE
+#define DADC57 DISABLE
+
+#define DADC60 DISABLE
+#define DADC61 DISABLE
+#define DADC62 DISABLE
+#define DADC63 DISABLE
+#define DADC64 DISABLE
+#define DADC65 DISABLE
+#define DADC66 DISABLE
+#define DADC67 DISABLE
+
+#define DADC70 DISABLE
+#define DADC71 DISABLE
+#define DADC72 DISABLE
+#define DADC73 DISABLE
+#define DADC74 DISABLE
+#define DADC75 DISABLE
+#define DADC76 DISABLE
+#define DADC77 DISABLE
+
+#define ADC_AUTOTREG    DISABLE
+
+#define ADC_TRIGGER  FREE_RUNNING
+
+
+#define ENABLE 1
+
+#define DISABLE 0
+
+#define RIGHT 1
+
+#define LEFT 0
+
+int Adc_Read(void);
+void Adc_Init(void);
+
+#endif /* ADC_H_ */
